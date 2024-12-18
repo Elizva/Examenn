@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 # Lista de tareas, en una aplicación real esto se almacenaría en una base de datos
 tareas = []
-# Lista de tareas, en una aplicación real esto se almacenaría en una base de datos
 
 @app.route('/')
 def index():
